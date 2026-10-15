@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohamed Dora | Pharmacist, Intern Pharmacist Applicant</title>
+<meta name="description" content="Overseas-qualified pharmacist with 12+ years of hospital, community and retail experience. KAPS passed, PTE Academic 90, AHPRA registered. Seeking an Intern Pharmacist position in Australia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F8F7; --surface:#FFFFFF; --ink:#13242B; --muted:#4F6269;
+  --accent:#0B6A61; --on-accent:#FFFFFF; --tint:#DCEFEA; --line:#CFDAD7;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --paper:#0E1A1F; --surface:#15252B; --ink:#E8F0EE; --muted:#9DB2B8;
+  --accent:#5ECDBE; --on-accent:#08201C; --tint:#18332F; --line:#27393F; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+/* header */
+.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font:600 1.15rem var(--serif);color:var(--ink);text-decoration:none;margin-right:auto;display:flex;align-items:center;gap:10px}
+.mono{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--on-accent);font:600 .85rem var(--sans);letter-spacing:.02em}
+.top nav{display:flex;gap:4px}
+.top nav a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500;padding:7px 14px;border-radius:999px;transition:background .2s,color .2s}
+.top nav a:hover{color:var(--ink)}
+.top nav a.on{color:var(--accent);background:var(--tint)}
+.icon-btn{background:var(--surface);border:1px solid var(--line);color:var(--ink);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:1rem}
+.icon-btn:hover{border-color:var(--accent)}
+
+/* hero */
+.hero{padding:76px 0 72px;position:relative;overflow:hidden;
+  background:radial-gradient(55% 90% at 92% 0%,var(--tint) 0%,transparent 70%)}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 1px 1px,var(--line) 1.2px,transparent 0);
+  background-size:24px 24px;-webkit-mask-image:linear-gradient(to bottom,#000 0%,transparent 85%);mask-image:linear-gradient(to bottom,#000 0%,transparent 85%);opacity:.7}
+.hero .wrap{position:relative}
+.status{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 12px;font-size:.86rem;font-weight:500;color:var(--ink);margin-bottom:22px;box-shadow:0 1px 2px rgba(19,36,43,.05)}
+.status i{width:8px;height:8px;border-radius:50%;background:#2FA36B;box-shadow:0 0 0 4px rgba(47,163,107,.18)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:start}
+.hero h1{font:500 clamp(2.2rem,4.8vw,3.5rem)/1.08 var(--serif);margin:0 0 22px;letter-spacing:-.018em}
+.hero p{color:var(--muted);font-size:1.06rem;max-width:56ch;margin:0 0 28px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.btn{font:600 .95rem var(--sans);padding:13px 24px;border-radius:999px;transition:transform .15s,box-shadow .2s,filter .2s;border:1.5px solid var(--accent);cursor:pointer;text-decoration:none;display:inline-block}
+.btn.primary{background:var(--accent);color:var(--on-accent);box-shadow:0 8px 20px -8px var(--accent)}
+.btn:hover{transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:hover{filter:brightness(1.08)}
+
+/* dispensing-label card: the one memorable element */
+.label{background:var(--surface);border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;transform:rotate(1.2deg);transition:transform .3s;
+  box-shadow:8px 8px 0 var(--tint),0 24px 40px -24px rgba(19,36,43,.35);animation:rise .7s ease-out both}
+.label:hover{transform:none}
+.label header{background:var(--accent);color:var(--on-accent);padding:13px 18px;font:600 1.02rem var(--serif);letter-spacing:.02em}
+.label dl{margin:0;padding:6px 18px 10px}
+.label .row{padding:11px 0;border-bottom:1px dashed var(--line)}
+.label .row:last-child{border-bottom:0}
+.label dt{font-size:.8rem;color:var(--muted);font-weight:500}
+.label dd{margin:1px 0 0;font-weight:600;font-size:.98rem}
+@keyframes rise{from{opacity:0;transform:translateY(14px) rotate(1.2deg)}to{opacity:1;transform:rotate(1.2deg)}}
+
+/* sections */
+section{padding:72px 0;border-top:1px solid var(--line)}
+section .wrap{display:grid;grid-template-columns:250px 1fr;grid-template-rows:auto 1fr;column-gap:64px}
+section .wrap > h2,section .wrap > .lede{grid-column:1}
+section .wrap > .cols,section .wrap > .contact,section .wrap > .timeline{grid-column:2;grid-row:1 / span 2}
+section .wrap > .tools{grid-column:1;grid-row:1 / span 2;align-self:start}
+h2{font:500 1.95rem/1.15 var(--serif);margin:0 0 10px;letter-spacing:-.01em}
+h2::before{content:"";display:block;width:34px;height:3px;border-radius:3px;background:var(--accent);margin-bottom:16px}
+.lede{color:var(--muted);margin:0 0 20px;max-width:34ch;font-size:.95rem}
+.tools{display:block}
+.link-btn{background:none;border:0;color:var(--accent);font:600 .9rem var(--sans);cursor:pointer;padding:6px 0;text-decoration:underline;text-underline-offset:3px}
+
+/* experience timeline: a real sequence, so a rail is meaningful */
+.timeline{border-left:2px solid var(--line);margin-left:6px}
+details{position:relative;margin:0 0 16px 24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;transition:border-color .2s,box-shadow .2s}
+details:hover,details[open]{border-color:color-mix(in srgb,var(--accent) 45%,var(--line));box-shadow:0 14px 30px -22px rgba(19,36,43,.4)}
+details::before{content:"";position:absolute;left:-32px;top:24px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--accent)}
+details[open]::before{background:var(--accent)}
+summary{list-style:none;cursor:pointer;padding:18px 22px;display:grid;grid-template-columns:1fr auto;gap:2px 16px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary .role{font:600 1.15rem var(--serif)}
+summary .org{color:var(--muted);font-size:.93rem;grid-column:1}
+summary .when{grid-column:2;grid-row:1;font-size:.88rem;font-weight:600;color:var(--accent);white-space:nowrap}
+summary .chev{grid-column:2;grid-row:2;justify-self:end;color:var(--muted);transition:transform .2s;font-size:.8rem}
+details[open] .chev{transform:rotate(180deg)}
+details ul{margin:0;padding:0 24px 20px 44px;color:var(--ink)}
+details li::marker{color:var(--accent)}
+details li{margin-bottom:6px}
+
+/* two-column blocks */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+h3{font:600 1.15rem var(--serif);margin:0 0 12px}
+.plain{list-style:none;margin:0;padding:0}
+.plain li{padding:12px 0 12px 22px;border-bottom:1px solid var(--line);position:relative}
+.plain li::before{content:"";position:absolute;left:0;top:21px;width:8px;height:8px;border-radius:2px;background:var(--accent);transform:rotate(45deg)}
+.plain li:last-child{border-bottom:0}
+.plain small{display:block;color:var(--muted);font-size:.86rem}
+.note{margin-top:14px;color:var(--muted);font-size:.9rem}
+
+/* contact */
+.contact{background:linear-gradient(135deg,var(--tint),var(--surface));border:1px solid var(--line);border-radius:18px;padding:32px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.contact p{margin:0 0 6px;color:var(--muted)}
+.contact strong{color:var(--ink)}
+footer{padding:28px 0 40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+
+/* toast */
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:10px 18px;border-radius:8px;font-size:.9rem;opacity:0;pointer-events:none;transition:.25s}
+#toast.show{opacity:1;transform:translateX(-50%)}
+
+@media (max-width:820px){
+  .hero .wrap,.cols,.contact{grid-template-columns:1fr}
+  section .wrap{display:block}
+  .label{transform:none}@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  section{padding:52px 0}
+  .tools{margin-bottom:20px}
+  .hero{padding-top:40px}.hero .wrap{gap:36px}
+  .top nav{display:none}
+  summary{grid-template-columns:1fr}
+  summary .when,summary .chev{grid-column:1;grid-row:auto;justify-self:start}
+  summary .chev{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+@media print{
+  .top,.actions,.tools .link-btn,.contact .btn,#toast{display:none!important}
+  body{background:#fff;color:#000}.label{box-shadow:none;animation:none;transform:none}.hero::before{display:none}
+  section{padding:20px 0;break-inside:avoid}.hero{padding:20px 0}
+}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="mono" aria-hidden="true">MD</span>Mohamed Dora</a>
+    <nav aria-label="Sections">
+      <a href="#experience">Experience</a>
+      <a href="#skills">Competencies</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+  </div>
+</div>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <span class="status"><i></i>Open to Intern Pharmacist roles in Australia</span>
+        <h1>Pharmacist with 12+ years of experience, ready to begin my Australian internship.</h1>
+        <p>I am an overseas-qualified pharmacist with hospital, community and retail experience across Egypt and Saudi Arabia. I have passed KAPS, scored PTE Academic 90 and hold AHPRA registration. I am looking for an Intern Pharmacist position with a community or hospital pharmacy in Australia.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:Dorra13492@gmail.com?subject=Intern%20Pharmacist%20opportunity">Email me</a>
+          <button class="btn ghost" type="button" id="print">Print or save as PDF</button>
+        </div>
+      </div>
+
+      <aside class="label" aria-label="Registration and eligibility summary">
+        <header>Registration and eligibility</header>
+        <dl>
+          <div class="row"><dt>AHPRA registration</dt><dd>PHA0004082030</dd></div>
+          <div class="row"><dt>KAPS, Australian Pharmacy Council</dt><dd>Passed, March 2024</dd></div>
+          <div class="row"><dt>PTE Academic</dt><dd>Overall score 90, September 2024</dd></div>
+          <div class="row"><dt>Right to work</dt><dd>Australian Permanent Resident</dd></div>
+          <div class="row"><dt>Availability</dt><dd>Weekends and public holidays, open to relocation, current driver's licence</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="tools">
+        <div>
+          <h2>Work practice history</h2>
+          <p class="lede">Four roles, most recent first.</p>
+        </div>
+        <button class="link-btn" type="button" id="toggleAll">Collapse all</button>
+      </div>
+
+      <div class="timeline">
+        <details open>
+          <summary>
+            <span class="role">Pharmacist in Charge</span>
+            <span class="when">28/08/2016 to 27/08/2026</span>
+            <span class="org">Al-Dawaa Pharmacies, Jubail, Saudi Arabia. Full-time</span>
+            <span class="chev" aria-hidden="true">▼</span>
+          </summary>
+          <ul>
+            <li>Led day-to-day pharmacy operations as the responsible pharmacist, ensuring safe, accurate and compliant dispensing.</li>
+            <li>Supervised and mentored pharmacy staff, verifying prescriptions and maintaining rigorous documentation and records.</li>
+            <li>Screened prescriptions for adverse drug interactions, protecting patient safety and treatment adherence.</li>
+            <li>Counselled patients on prescription instructions and appropriate OTC medicine use.</li>
+            <li>Managed ordering, stock control and cold-chain storage of sensitive medicines and vaccines, achieving zero spoilage.</li>
+          </ul>
+        </details>
+
+        <details open>
+          <summary>
+            <span class="role">Pharmacist</span>
+            <span class="when">02/12/2015 to 27/08/2016</span>
+            <span class="org">Sedy Mubarak Medical Unit, Kafr El-Sheikh, Egypt. Full-time</span>
+            <span class="chev" aria-hidden="true">▼</span>
+          </summary>
+          <ul>
+            <li>Prepared and dispensed medications; liaised with physicians to flag and resolve significant drug interactions.</li>
+            <li>Managed secure storage, temperature monitoring and distribution of public health immunisations.</li>
+          </ul>
+        </details>
+
+        <details open>
+          <summary>
+            <span class="role">Pharmacist</span>
+            <span class="when">02/11/2014 to 01/12/2015</span>
+            <span class="org">Egyptian Armed Forces Hospital, Cairo, Egypt. Full-time</span>
+            <span class="chev" aria-hidden="true">▼</span>
+          </summary>
+          <ul>
+            <li>Oversaw procurement and dispensing of medications for military service members.</li>
+            <li>Collaborated with medical staff to resolve medication issues and strengthen hospital-wide medication safety.</li>
+          </ul>
+        </details>
+
+        <details open>
+          <summary>
+            <span class="role">Pharmacist Trainee (Internship)</span>
+            <span class="when">01/05/2014 to 01/11/2014</span>
+            <span class="org">Youssef Pharmacy, Kafr El-Sheikh, Egypt. Full-time</span>
+            <span class="chev" aria-hidden="true">▼</span>
+          </summary>
+          <ul>
+            <li>Assisted senior pharmacists with prescription filling, inventory logging and OTC counselling.</li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Clinical and procedural competencies</h2>
+      <p class="lede">All areas below are rated Competent.</p>
+      <div class="cols">
+        <div>
+          <h3>Clinical</h3>
+          <ul class="plain">
+            <li>Medication history-taking</li>
+            <li>Patient counselling</li>
+            <li>Patient education</li>
+            <li>Drug interaction screening</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Procedural</h3>
+          <ul class="plain">
+            <li>Medication preparation and dispensing</li>
+            <li>Drug information and resource management</li>
+            <li>Vaccination administration</li>
+            <li>Inventory and cold-chain management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credentials">
+    <div class="wrap">
+      <h2>Credentials</h2>
+      <p class="lede">Registrations first, then qualifications and examinations.</p>
+      <div class="cols">
+        <div>
+          <h3>Registration history</h3>
+          <ul class="plain">
+            <li>Australian Health Practitioner Regulation Agency (AHPRA) and Pharmacy Board of Australia<small>Reg. no. PHA0004082030</small></li>
+            <li>Egyptian Syndicate of Pharmacists<small>Currently registered</small></li>
+            <li>Egyptian Ministry of Health<small>Currently registered</small></li>
+            <li>Saudi Commission for Health Specialties<small>Currently registered</small></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Qualifications and examinations</h3>
+          <ul class="plain">
+            <li>Bachelor of Pharmacy, Tanta University, Egypt<small>May 2014</small></li>
+            <li>Knowledge Assessment of Pharmaceutical Sciences (KAPS), Australian Pharmacy Council<small>Passed, March 2024</small></li>
+            <li>PTE Academic, overall score 90<small>September 2024</small></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p class="lede">References are available on request.</p>
+      <div class="contact">
+        <div>
+          <p><strong>Email</strong> <a href="mailto:Dorra13492@gmail.com">Dorra13492@gmail.com</a></p>
+          <p><strong>Phone</strong> <a href="tel:+61404545917">0404 545 917</a></p>
+          <p><strong>Location</strong> Melbourne, VIC</p>
+        </div>
+        <button class="btn primary" type="button" id="copy">Copy email address</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Mohamed Dora. Last updated <span id="year"></span>.</div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var $ = function (s) { return document.querySelector(s); };
+  var all = function (s) { return Array.prototype.slice.call(document.querySelectorAll(s)); };
+
+  // Theme: follow the system, remember a manual choice if storage is available
+  try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
+  $('#theme').addEventListener('click', function () {
+    var dark = root.getAttribute('data-theme') === 'dark';
+    var next = dark ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
+  // Expand or collapse every role
+  var toggle = $('#toggleAll');
+  toggle.addEventListener('click', function () {
+    var anyOpen = all('details').some(function (d) { return d.open; });
+    all('details').forEach(function (d) { d.open = !anyOpen; });
+    toggle.textContent = anyOpen ? 'Expand all' : 'Collapse all';
+  });
+
+  // Print with every role open
+  $('#print').addEventListener('click', function () {
+    all('details').forEach(function (d) { d.open = true; });
+    window.print();
+  });
+  window.addEventListener('beforeprint', function () {
+    all('details').forEach(function (d) { d.open = true; });
+  });
+
+  // Copy email with confirmation
+  var toast = $('#toast'), timer;
+  function say(msg) {
+    toast.textContent = msg; toast.classList.add('show');
+    clearTimeout(timer); timer = setTimeout(function () { toast.classList.remove('show'); }, 2200);
+  }
+  $('#copy').addEventListener('click', function () {
+    var email = 'Dorra13492@gmail.com';
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email).then(function () { say('Email address copied'); },
+        function () { say('Copy failed. Email: ' + email); });
+    } else { say('Email: ' + email); }
+  });
+
+  // Highlight the current section in the nav
+  var links = all('.top nav a');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          links.forEach(function (a) { a.classList.toggle('on', a.getAttribute('href') === '#' + en.target.id); });
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    all('main section').forEach(function (s) { io.observe(s); });
+  }
+
+  $('#year').textContent = new Date().toLocaleDateString('en-AU', { month: 'long', year: 'numeric' });
+})();
+</script>
+</body>
+</html>
